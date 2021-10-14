@@ -44,6 +44,12 @@ td {
 p {
   font-size: 14px;
 }
+.bold{
+    font-weight: bold;
+}
+.normal{
+    font-weight: normal
+}
 /* Main container css */
 .container {
     max-width: 750px;
