@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+/* Root css */
 * {
   margin: 0;
   padding: 0;
@@ -9,28 +10,9 @@ body {
   height: 100vh;
   font-family: "Poppins", sans-serif;
 }
-p {
-  font-size: 13px;
-}
-.container {
-  max-width: 768px;
-  margin: 0 auto;
-  padding: 20px 0;
-}
-.header {
-    padding-bottom: 30px;
-}
-.order-details {
-  display: flex;
-  /* justify-content: space-around; */
-}
-.order-details .purchase-control {
-  width: 50%;
-  padding-left: 50px;
-}
-.order-details .purchase-order {
-  width: 50%;
-  padding-left: 50px;
+/* Element style */
+sup {
+  font-size: 8px;
 }
 table {
   border-collapse: collapse;
@@ -44,15 +26,12 @@ td {
   /* border: 1px solid #D6DADD; */
   padding: 5px 20px;
 }
-.main-table table td {
-  font-size: 12px;
-}
 tr:nth-child(even) {
   background: #f6f7f9;
 }
 th {
   background-color: #54b6e7;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   color: #fff;
   text-align: left;
@@ -62,6 +41,35 @@ td {
   font-size: 13px;
   word-wrap: break-word;
 }
+p {
+  font-size: 13px;
+}
+/* Main container css */
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px 15px;
+}
+/* Header css */
+.header {
+  padding-bottom: 30px;
+}
+/* Order details css */
+.order-details {
+  display: flex;
+  /* justify-content: space-around; */
+}
+.order-details .purchase-control {
+  width: 50%;
+  padding-left: 50px;
+}
+.order-details .purchase-order {
+  width: 50%;
+  padding-left: 50px;
+}
+
+
+/* Supplier details css */
 .supplier-details table th {
   width: 50%;
   text-align: left;
@@ -86,9 +94,9 @@ td {
   text-transform: uppercase;
 }
 .total-amount .amount {
-    background-color: #f6f7f9;
-    color: black;
-    font-weight: bold;
-    padding-left: 20px;
-    padding-right: 20px;
+  background-color: #f6f7f9;
+  color: black;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
 }
