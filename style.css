@@ -38,7 +38,7 @@ th {
   text-transform: uppercase;
 }
 td {
-  font-size: 12px;
+  font-size: 13px;
   word-wrap: break-word;
 }
 p {
@@ -77,7 +77,7 @@ p {
 
 /* Supplier details css */
 .supplier-details p {
-    font-size: 12px;
+    font-size: 13px;
 }
 .supplier-details table th {
   width: 50%;
