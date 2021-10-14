@@ -10,7 +10,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 p {
-  font-size: 15px;
+  font-size: 13px;
 }
 .container {
   max-width: 768px;
@@ -52,18 +52,20 @@ tr:nth-child(even) {
 }
 th {
   background-color: #54b6e7;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   color: #fff;
   text-align: left;
+  text-transform: uppercase;
 }
 td {
-  font-size: 15px;
+  font-size: 13px;
   word-wrap: break-word;
 }
 .supplier-details table th {
   width: 50%;
   text-align: left;
+  padding-left: 50px;
 }
 .supplier-details table td {
   background: #f6f7f9;
