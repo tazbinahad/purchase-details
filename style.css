@@ -41,16 +41,16 @@ th {
   text-transform: uppercase;
 }
 td {
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: .1px;
     word-wrap: break-word;
 }
 p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 18px
 }
 .bold{
-    font-weight: bold;
+    font-weight: 600;
 }
 .normal{
     font-weight: normal
@@ -94,7 +94,7 @@ p {
     font-size: 12px;
 }
 .supplier-details p {
-    font-size: 12px;
+    font-size: 14px;
 }
 .supplier-details table th {
   width: 50%;
@@ -116,7 +116,7 @@ p {
     background-color: #54b6e7;
     letter-spacing: .5px;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
 }
